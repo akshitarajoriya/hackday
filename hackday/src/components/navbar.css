@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    position: relative;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100vw;
+    background-color: rgb(101, 124, 226); 
+     
+}
+.box1{
+/* display: inline-flex; */
+padding: 0px 0px 0px 6px;
+}
+.box2{
+    padding: 0px 6px;
+}
+ul{
+    display: flex;
+    gap:16px;
+    list-style-type: none;
+}

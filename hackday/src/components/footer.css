@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between;
+     align-content: flex-end; */
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(32, 0, 92);
+    color: aliceblue;
+     justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-between;
+    align-content: flex-end; */
+}
+.copy{
+padding: 0px 6px;
+}
+.first{
+    padding: 0px 0px 0px 6px;
+    }
