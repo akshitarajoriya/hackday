@@ -6,8 +6,8 @@ const footer = () => {
     <>
     <footer>
     <div class="container">
-        <div class="left">content</div>
-        <div class="right">copyright belongs to the following organisation &copy;
+        <div className="left">content</div>
+        <div className="right">copyright belongs to the following organisation &copy;
 
         </div>
     </div> 

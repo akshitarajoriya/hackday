@@ -1,15 +1,20 @@
 import React from 'react'
-import Card from "./card"
+import Navbar from './navbar'
+import Footer from './footer'
+import Card from './card'
 import "./home.css"
 
-
-const home = () => {
+const home = ({image}) => {
   return (
-    <div id="card">
-      <Card/>
-      <Card/>
-      <Card/>
-      
+    <div>
+      <Navbar />
+      <div id="card">
+        <Card image={image}/>
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
+      <Footer />
     </div>
   )
 }

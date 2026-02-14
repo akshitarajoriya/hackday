@@ -5,6 +5,7 @@ import "./about.css"
 const about = () => {
   return (
    <>
+   <Navbar/>
     <div>
       <h3>hello there , this page includes information about us </h3>
      <div> we are here to fight the crisis of global mental health disorders</div>
@@ -13,6 +14,7 @@ const about = () => {
      <div>the AI models are also helping to diagnose ur mental disorders better</div>
      <div>this websites is completely free to use , since we use ads to pay our therapist, making therapy easily available. + being online it reaches everyone</div>
     </div>
+    <Footer/>
     </>
   )
 }

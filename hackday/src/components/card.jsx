@@ -10,7 +10,6 @@ function Card({ image, title, description, buttonText }) {
       <h2 className="card-title">{title}</h2>
 
       <p className="card-description">{description}</p>
-
       <button className="card-btn">{buttonText}</button>
     </div>
   );
