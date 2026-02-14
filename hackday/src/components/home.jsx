@@ -1,11 +1,12 @@
 import React from 'react'
 import Card from "./card"
-import img from "./ahdh1.jpeg"
+import "./home.css"
+
 
 const home = () => {
   return (
-    <div>
-      <Card image={img}/>
+    <div id="card">
+      <Card/>
       <Card/>
       <Card/>
       
